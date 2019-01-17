@@ -1,6 +1,6 @@
 defmodule Discuss.Plugs.SetUser do
     import Plug.Conn            # assign
-    import Phoenix.Controller   # get_session
+    # import Phoenix.Controller   # get_session
 
     alias Discuss.Repo
     alias Discuss.User
